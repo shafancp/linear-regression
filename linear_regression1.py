@@ -24,7 +24,6 @@ data.tail()
 data.shape
 
 ## Visualizing data
-"""
 
 # Commented out IPython magic to ensure Python compatibility.
 # conventional way to import seaborn
@@ -36,7 +35,7 @@ import matplotlib.pyplot as plt
 data.plot(kind='scatter',x='cgpa',y='placed',color='red')
 data.plot(kind='scatter',x='placement_exam_marks',y='placed',color='blue')
 
-"""## Linear regression
+## Linear regression
 
 **Pros:** fast, no tuning required, highly interpretable, well-understood
 
